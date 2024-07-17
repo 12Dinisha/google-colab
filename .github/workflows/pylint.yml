@@ -20,4 +20,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*music.py')
+        pylint $(git ls-files '*12Dinisha-patch-1.py')
